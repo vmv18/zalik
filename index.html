@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма з таблицею</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.3/css/foundation.min.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<form id="myForm">
+    <label for="fullName">П.І.Б:</label>
+    <input type="text" id="fullName" name="fullName" required>
+
+    <label for="phoneNumber">Номер телефону:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required>
+
+    <button type="button" style="background-color: cadetblue" class="button" onclick="submitForm()">Відправити</button>
+</form>
+
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>П.І.Б</th>
+            <th>Номер телефону</th>
+            <th>Оператор</th>
+        </tr>
+        </thead>
+        <tbody id="outputTable">
+        <!-- Ваші дані будуть додані сюди після відправки форми -->
+        </tbody>
+    </table>
+
+    <ul id="outputList">
+        <!-- Ваші дані будуть додані сюди після відправки форми -->
+    </ul>
+</div>
+
+
+
+</body>
+</html>

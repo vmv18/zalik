@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 100%;
+    line-height: 110%;
+    background-color: azure;
+
+}
+
+form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px; /* Задайте бажану ширину форми */
+    color: darkslategray;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+div {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px; /* Задайте бажану ширину блоку div */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+
+}
+
+#output {
+    margin-top: 20px;
+}
